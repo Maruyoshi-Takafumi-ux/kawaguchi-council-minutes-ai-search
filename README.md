@@ -5,7 +5,7 @@
 
 - 会議録元: https://ssp.kaigiroku.net/tenant/kawaguchi/SpTop.html （tenant=`kawaguchi`, tenant_id=`366`）
 - 公開予定: https://kawaguchi.council-minutes-ai-search.jp （VPS上ポート 8001 を想定）
-- 公開範囲: 平成7年(1995)〜令和8年。収集開始年は `START_YEAR`（既定 2015）で変更可
+- 公開範囲: 平成7年(1995)〜令和8年。収集開始年は `START_YEAR`（既定 2023）で変更可
 
 ## 松原版からの変更点
 | 項目 | 内容 |

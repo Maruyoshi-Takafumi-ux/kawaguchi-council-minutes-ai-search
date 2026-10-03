@@ -18,7 +18,7 @@ MINUTE_VIEW_URL = f"{BASE_URL}/tenant/{TENANT}/SpMinuteView.html"
 # --- 収集対象年度 ---
 # 川口市は平成7年(1995)以降が公開されている。収集開始年は START_YEAR で調整する。
 # 新年度が公開されたら LATEST_YEAR を更新するだけでよい（他ファイルは全てここを参照）。
-START_YEAR = int(os.getenv("START_YEAR", "2015"))   # 平成27年〜
+START_YEAR = int(os.getenv("START_YEAR", "2023"))   # 令和5年〜（現任期。遡る場合は環境変数で指定）
 LATEST_YEAR = int(os.getenv("LATEST_YEAR", "2026"))  # 令和8年
 
 
