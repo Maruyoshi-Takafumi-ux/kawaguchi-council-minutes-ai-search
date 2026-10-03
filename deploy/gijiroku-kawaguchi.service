@@ -1,0 +1,14 @@
+[Unit]
+Description=議事録AI検索くん (kawaguchi)
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/kawaguchi-council-minutes-ai-search
+ExecStart=/opt/kawaguchi-council-minutes-ai-search/venv/bin/uvicorn api:app --host 127.0.0.1 --port 8001
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
